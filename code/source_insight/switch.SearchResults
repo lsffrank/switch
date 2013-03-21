@@ -1,0 +1,36 @@
+---- typedef Æ¥Åä (35 in 5 ÎÄ¼þ) ----
+CMSIS_Core.htm (library\cmsis\documentation):numbers for the complete device using a enum typedef as shown below:</p>
+CMSIS_Core.htm (library\cmsis\documentation):typedef enum IRQn
+CMSIS_Core.htm (library\cmsis\documentation):typedef struct
+CMSIS_Core.htm (library\cmsis\documentation):typedef struct {
+CMSIS_Core.htm (library\cmsis\documentation):    that use the same <strong>register layout typedef</strong> multiple base addresses are defined). For example:
+CMSIS_Core.htm (library\cmsis\documentation):    the same <strong>register layout typedef</strong> multiple access definitions exist, i.e. LPC_UART0, 
+Core_cm0.h (library\cmsis\cm0\coresupport):typedef struct
+Core_cm0.h (library\cmsis\cm0\coresupport):typedef struct
+Core_cm0.h (library\cmsis\cm0\coresupport):typedef struct
+Core_cm0.h (library\cmsis\cm0\coresupport):typedef struct
+I2C_SW_I.c (library\nu-lb\src):typedef struct
+I2C_SW_I.c (library\nu-lb\src):typedef void (*TIMER_CALLBACK)(void);	
+Main.c (src):typedef  uint8_t   unsigned char
+Main.c (src):typedef   uint16_t	 unsigned int
+Main.c (src):typedef  uint32_t	  unsigned long
+Main.c (src):typedef  int32_t	 long
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef enum IRQn
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct                                  
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef struct
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef volatile unsigned char  vu8;
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef volatile unsigned long  vu32;
+MINI51.h (library\cmsis\cm0\devicesupport\nuvoton\mini51):typedef volatile unsigned short vu16;

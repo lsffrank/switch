@@ -1,0 +1,17 @@
+.\obj\system_m051series.o: ..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.c
+.\obj\system_m051series.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\obj\system_m051series.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\obj\system_m051series.o: ..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\CMSIS\CM0\CoreSupport\core_cm0.h
+.\obj\system_m051series.o: ..\..\..\..\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\SYS.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\ADC.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\EBI.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\FMC.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\GPIO.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\I2C.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\PWM.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\SPI.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\TIMER.h
+.\obj\system_m051series.o: ..\..\..\..\libM051Series\StdDriver\inc\UART.h

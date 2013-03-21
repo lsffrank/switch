@@ -1,0 +1,316 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\obj\Capture.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\obj\Capture.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, RVCT4.0 [Build 524]: Last Updated: Thu Mar 14 01:19:35 2013
+<BR><P>
+<H3>Maximum Stack Usage =        104 bytes + Unknown(Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+main &rArr; LCD_Print &rArr; ShowChar &rArr; SetPACA
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[c1dba0]">Reset_Handler</a>
+ <LI><a href="#[c1db64]">NMI_Handler</a>
+ <LI><a href="#[c1db28]">HardFault_Handler</a>
+ <LI><a href="#[c1daec]">SVC_Handler</a>
+ <LI><a href="#[c1dab0]">PendSV_Handler</a>
+ <LI><a href="#[c1da74]">SysTick_Handler</a>
+ <LI><a href="#[c1d984]">BOD_IRQHandler</a>
+ <LI><a href="#[c1d510]">WDT_IRQHandler</a>
+ <LI><a href="#[c1d948]">EINT0_IRQHandler</a>
+ <LI><a href="#[c1d90c]">EINT1_IRQHandler</a>
+ <LI><a href="#[c1d8d0]">GPIOP0P1_IRQHandler</a>
+ <LI><a href="#[c1d894]">GPIOP2P3P4_IRQHandler</a>
+ <LI><a href="#[c1c4a8]">PWMA_IRQHandler</a>
+ <LI><a href="#[c1d7a4]">PWMB_IRQHandler</a>
+ <LI><a href="#[c1d678]">TMR0_IRQHandler</a>
+ <LI><a href="#[c1d63c]">TMR1_IRQHandler</a>
+ <LI><a href="#[c1d600]">TMR2_IRQHandler</a>
+ <LI><a href="#[c1d5c4]">TMR3_IRQHandler</a>
+ <LI><a href="#[c1d588]">UART0_IRQHandler</a>
+ <LI><a href="#[c1d54c]">UART1_IRQHandler</a>
+ <LI><a href="#[c1d6f0]">SPI0_IRQHandler</a>
+ <LI><a href="#[c1d6b4]">SPI1_IRQHandler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1d858]">I2C0_IRQHandler</a>
+ <LI><a href="#[c1d81c]">I2C1_IRQHandler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1da38]">ACMP0_IRQHandler</a>
+ <LI><a href="#[c1d9fc]">ACMP1_IRQHandler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1d768]">PWRWU_IRQHandler</a>
+ <LI><a href="#[c1d9c0]">ADC_IRQHandler</a>
+ <LI><a href="#[c1dd08]">Default_Handler</a>
+ <LI><a href="#[c1d72c]">RTC_IRQHandler</a>
+ <LI><a href="#[c1c3b8]">main</a>
+ <LI><a href="#[c1df60]">SystemInit</a>
+ <LI><a href="#[c19ba4]">__main</a>
+ <LI><a href="#[c17bc4]">_sputc</a>
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[c19ba4]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(.text)
+</UL>
+<P><STRONG><a name="[154bb90]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[154ba64]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[154b17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[154ba28]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[154b17c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[154b938]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7.o(.ARM.Collect$$$$00000007))
+
+<P><STRONG><a name="[c1df60]"></a>SystemInit</STRONG> (Thumb, 88 bytes, Stack size 0 bytes, system_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(.text)
+</UL>
+<P><STRONG><a name="[c1dba0]"></a>Reset_Handler</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+
+<P><STRONG><a name="[c1db64]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1db28]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1daec]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1dab0]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1da74]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1da38]"></a>ACMP0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d9fc]"></a>ACMP1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d9c0]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d984]"></a>BOD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d948]"></a>EINT0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d90c]"></a>EINT1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d8d0]"></a>GPIOP0P1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d894]"></a>GPIOP2P3P4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d858]"></a>I2C0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d81c]"></a>I2C1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d7a4]"></a>PWMB_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d768]"></a>PWRWU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d72c]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d6f0]"></a>SPI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d6b4]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d678]"></a>TMR0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d63c]"></a>TMR1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d600]"></a>TMR2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d5c4]"></a>TMR3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d588]"></a>UART0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d54c]"></a>UART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d510]"></a>WDT_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1c4a8]"></a>PWMA_IRQHandler</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = PWMA_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1c46c]"></a>SYS_Init</STRONG> (Thumb, 118 bytes, Stack size 16 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = SYS_Init &rArr; SYS_WaitingForClockReady
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1d18c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_WaitingForClockReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1c430]"></a>UART0_Init</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, main.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1c3f4]"></a>PWMA_Init</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = PWMA_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1c3b8]"></a>main</STRONG> (Thumb, 192 bytes, Stack size 56 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = main &rArr; LCD_Print &rArr; ShowChar &rArr; SetPACA
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c178f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2sprintf
+<LI><a href="#[c199c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+<LI><a href="#[c1c2c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Print
+<LI><a href="#[c1c304]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Init
+<LI><a href="#[c1c340]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_EnableBackLight
+<LI><a href="#[c1c37c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ClearScreen
+<LI><a href="#[c1c3f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PWMA_Init
+<LI><a href="#[c1c430]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART0_Init
+<LI><a href="#[c1c46c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry7.o(.ARM.Collect$$$$00000007)
+</UL>
+<P><STRONG><a name="[c1c304]"></a>LCD_Init</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, lcd_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = LCD_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1ba58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiWrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1c340]"></a>LCD_EnableBackLight</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, lcd_driver.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1c2c8]"></a>LCD_Print</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, lcd_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = LCD_Print &rArr; ShowChar &rArr; SetPACA
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1b9e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ShowChar
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1c37c]"></a>LCD_ClearScreen</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, lcd_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = LCD_ClearScreen &rArr; SetPACA
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1ba1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetPACA
+<LI><a href="#[c1ba58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiWrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c19a00]"></a>__aeabi_uidiv</STRONG> (Thumb, 0 bytes, Stack size 12 bytes, uidiv.o(.text), UNUSED)
+
+<P><STRONG><a name="[c199c4]"></a>__aeabi_uidivmod</STRONG> (Thumb, 44 bytes, Stack size 12 bytes, uidiv.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = __aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c17c3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+<LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[154b17c]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[154ba28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[154ba64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[154b140]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[c1796c]"></a>__0sprintf$1</STRONG> (Thumb, 36 bytes, Stack size 24 bytes, printf1.o(i.__0sprintf$1), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[c17bc4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sputc
+<LI><a href="#[c17c3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_printf_core
+</UL>
+
+<P><STRONG><a name="[c17930]"></a>__1sprintf$1</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf1.o(i.__0sprintf$1), UNUSED)
+
+<P><STRONG><a name="[c178f4]"></a>__2sprintf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf1.o(i.__0sprintf$1))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2sprintf
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1c3b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[154aa74]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[154aa38]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[154a9fc]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[c1dd08]"></a>Default_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_m051series.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_m051series.o(RESET)
+</UL>
+<P><STRONG><a name="[c1d18c]"></a>SYS_WaitingForClockReady</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, main.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SYS_WaitingForClockReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1c46c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SYS_Init
+</UL>
+
+<P><STRONG><a name="[c1ba58]"></a>SpiWrite</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, lcd_driver.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[c1b9e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ShowChar
+<LI><a href="#[c1ba1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetPACA
+<LI><a href="#[c1c304]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Init
+<LI><a href="#[c1c37c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ClearScreen
+</UL>
+
+<P><STRONG><a name="[c1ba1c]"></a>SetPACA</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, lcd_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SetPACA
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1ba58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiWrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1b9e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ShowChar
+<LI><a href="#[c1c37c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_ClearScreen
+</UL>
+
+<P><STRONG><a name="[c1b9e0]"></a>ShowChar</STRONG> (Thumb, 88 bytes, Stack size 24 bytes, lcd_driver.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = ShowChar &rArr; SetPACA
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1ba1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetPACA
+<LI><a href="#[c1ba58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SpiWrite
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1c2c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Print
+</UL>
+
+<P><STRONG><a name="[c17c3c]"></a>_printf_core</STRONG> (Thumb, 322 bytes, Stack size 88 bytes, printf1.o(i._printf_core), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[c199c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1796c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf$1
+</UL>
+
+<P><STRONG><a name="[c17bc4]"></a>_sputc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, printf1.o(i._sputc))
+<BR><BR>[Called By]<UL><LI><a href="#[c1796c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__0sprintf$1
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> printf1.o(i.__0sprintf$1)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

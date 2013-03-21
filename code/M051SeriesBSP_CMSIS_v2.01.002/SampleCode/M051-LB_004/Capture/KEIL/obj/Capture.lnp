@@ -1,0 +1,4 @@
+--device DARMCM1 ".\obj\core_cm0.o" ".\obj\system_m051series.o" ".\obj\startup_m051series.o" ".\obj\main.o" ".\obj\ascii_table.o" ".\obj\lcd_driver.o" ".\obj\retarget.o" --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --feedback ".\obj\Capture.fed" 
+--strict --map --first='startup_M051Series.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lst\Capture.map" -o ".\obj\Capture.axf"

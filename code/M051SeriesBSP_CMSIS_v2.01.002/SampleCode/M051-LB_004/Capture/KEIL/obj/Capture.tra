@@ -1,0 +1,25 @@
+*** Creating Trace Output File '.\obj\Capture.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\core_cm0.o"'
+### List of Objects: adding '".\obj\system_m051series.o"'
+### List of Objects: adding '".\obj\startup_m051series.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\ascii_table.o"'
+### List of Objects: adding '".\obj\lcd_driver.o"'
+### List of Objects: adding '".\obj\retarget.o"'
+### ADS-LD Command completed:
+--device DARMCM1 ".\obj\core_cm0.o" ".\obj\system_m051series.o" ".\obj\startup_m051series.o" ".\obj\main.o" ".\obj\ascii_table.o" ".\obj\lcd_driver.o" ".\obj\retarget.o" --library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --feedback ".\obj\Capture.fed" 
+--strict --map --first='startup_M051Series.o(RESET)' --datacompressor=off --info=inline --entry Reset_Handler --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lst\Capture.map" -o ".\obj\Capture.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\Capture.axf'
+### ADS-LD Command File: '.\obj\Capture.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\Capture.lnp', Handle=0x00000260
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\Capture.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

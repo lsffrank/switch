@@ -1,0 +1,17 @@
+.\obj\lcd_driver.o: ..\..\..\..\LibM051Series\M051-LB_004_Driver\src\LCD_Driver.c
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\CMSIS\CM0\CoreSupport\core_cm0.h
+.\obj\lcd_driver.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\SYS.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\ADC.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\EBI.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\FMC.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\GPIO.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\I2C.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\PWM.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\SPI.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\TIMER.h
+.\obj\lcd_driver.o: ..\..\..\..\libM051Series\StdDriver\inc\UART.h
+.\obj\lcd_driver.o: ..\..\..\..\LibM051Series\M051-LB_004_Driver\inc\LCD_Driver.h

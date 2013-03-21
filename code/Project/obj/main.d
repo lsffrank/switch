@@ -1,0 +1,17 @@
+.\obj\main.o: ..\src\main.c
+.\obj\main.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\obj\main.o: ..\Library\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h
+.\obj\main.o: ..\Library\CMSIS\CM0\CoreSupport\core_cm0.h
+.\obj\main.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\obj\main.o: ..\Library\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h
+.\obj\main.o: ..\Library\StdDriver\inc\SYS.h
+.\obj\main.o: ..\Library\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h
+.\obj\main.o: ..\Library\StdDriver\inc\ADC.h
+.\obj\main.o: ..\Library\StdDriver\inc\EBI.h
+.\obj\main.o: ..\Library\StdDriver\inc\FMC.h
+.\obj\main.o: ..\Library\StdDriver\inc\GPIO.h
+.\obj\main.o: ..\Library\StdDriver\inc\I2C.h
+.\obj\main.o: ..\Library\StdDriver\inc\PWM.h
+.\obj\main.o: ..\Library\StdDriver\inc\SPI.h
+.\obj\main.o: ..\Library\StdDriver\inc\TIMER.h
+.\obj\main.o: ..\Library\StdDriver\inc\UART.h

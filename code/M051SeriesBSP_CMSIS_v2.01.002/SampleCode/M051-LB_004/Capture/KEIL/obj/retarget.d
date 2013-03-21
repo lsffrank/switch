@@ -1,0 +1,17 @@
+.\obj\retarget.o: ..\..\..\..\LibM051Series\StdDriver\src\retarget.c
+.\obj\retarget.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\CMSIS\CM0\CoreSupport\core_cm0.h
+.\obj\retarget.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\SYS.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\ADC.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\EBI.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\FMC.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\GPIO.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\I2C.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\PWM.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\SPI.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\TIMER.h
+.\obj\retarget.o: ..\..\..\..\libM051Series\StdDriver\inc\UART.h
